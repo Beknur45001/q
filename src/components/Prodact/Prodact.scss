@@ -1,10 +1,19 @@
+.bbb{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 .pro{
     width: 270px;
 height: 250px;
 border-radius: 4px;
 display: flex;
+// flex-direction: column;
 position: relative;
 margin-top: 40px;
+// border: 1px solid #000;
 padding: 49px;
 background: rgb(245, 245, 245);
 img{
@@ -12,6 +21,7 @@ img{
 height: 152px;
 }
 }
+
 .price{
     position: absolute;
     top: 0;
